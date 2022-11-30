@@ -93,12 +93,14 @@
           </div>
         </div>
         <div class="col-sm-6 mb-4 col-lg-4 my-4">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#cakeModal">
           <div class="card">
             <img src="../img/sütemények/torta.png" class="card-img-top" alt="...">
             <img src="../img/ikonok/sunflower-svgrepo-com.svg" alt="" id="napiajanlat">
             <div class="card-body">
-              <p class="card-text"><h4>Sajttotrta</h4></p>
+              <p class="card-text" id=""><h4>Sajttotrta</h4></p>
             </div>
+          </a>  
           </div>
         </div>
         <div class="col-sm-6 mb-4 col-lg-4 my-4">
@@ -128,6 +130,39 @@
       </div>
     </div>
         
+
+
+
+   
+
+<!-- Modal -->
+<div class="modal fade" id="cakeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="../img/sütemények/torta.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-sm-8">
+              <h2>Sajttorta</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum elit eget porta tincidunt. In molestie augue nec massa mattis, sed laoreet nibh accumsan. Mauris luctus libero in erat posuere molestie. Pellentesque in diam vel ante finibus lobortis in sit amet diam. Donec laoreet hendrerit purus, a tincidunt elit rhoncus vel. Praesent ultricies tortor nec finibus varius. In lobortis nunc sapien. Proin sagittis mi elit. In bibendum laoreet massa ac semper.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
       
 
 
@@ -144,7 +179,7 @@
             <h3 class="fw-bold text-light">Kávémagazin</h3>
             <p class="my-1 fw-bold">Iratkozzon fel kávémagazinunkra!</p>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+              <input class="form-control me-2" type="search" placeholder="exampla@gmail.com" aria-label="Search">
               <button class="btn btn-outline-light" type="submit">Feliratkozom</button>
             </form>
           </div>
