@@ -88,17 +88,19 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6 mb-4 col-lg-4 my-4">
-          <div class="card">
-            <img src="../img/kávék/capuchino.png" class="card-img-top" alt="...">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#capuchinoModal">
+            <div class="card">
+            <img src="../img/kávék/capuchino.png" class="card-img-top" alt="..." id="capuchino" >
+            <img src="../img/ikonok/sunflower-svgrepo-com.svg" alt="" id="napiajanlat">
             <div class="card-body">
               <p class="card-text"><h4>Capuchino</h4></p>
+            </a>
             </div>
           </div>
         </div>
         <div class="col-sm-6 mb-4 col-lg-4 my-4">
           <div class="card">
             <img src="../img/kávék/espresso.png" class="card-img-top" alt="...">
-            <img src="../img/ikonok/sunflower-svgrepo-com.svg" alt="" id="napiajanlat">
             <div class="card-body">
               <p class="card-text"><h4>Espresso</h4></p>
             </div>
@@ -133,7 +135,37 @@
         </div>
       </div>
     </div>
-        
+        <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="capuchinoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">...</div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">capuchino</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+             <img src="../img/kávék/capuchino.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-sm-8">
+              <h2>Capuchino</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, velit deleniti earum necessitatibus optio consequuntur fugit dolorum unde ipsam animi dolor. Quos saepe officia similique at voluptates cumque facilis vero!</p>
+              <p>Error voluptates laudantium, nulla at, quasi eius quas tempora nemo amet unde recusandae temporibus earum veritatis pariatur rem non ipsum officia. Asperiores doloremque cupiditate non veritatis quas praesentium voluptatum laborum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Bezárás</button>
+      </div>
+    </div>
+  </div>
+</div>
       
 
     <!-- B O T T O M T E X T -->
