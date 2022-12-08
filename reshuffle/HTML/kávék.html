@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="icon" href="../img/ikonok/clover-svgrepo-com.svg">
     <link rel="stylesheet" href="../CSS/lucky.css">
+    <script src="../Java/code.js"></script>
 
     <title>Lucky kávék</title>
   </head>
@@ -181,9 +182,14 @@
           <div class="col">
             <h3 class="fw-bold text-light">Kávémagazin</h3>
             <p class="my-1 fw-bold">Iratkozzon fel kávémagazinunkra!</p>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
-              <button class="btn btn-outline-light" type="submit">Feliratkozom</button>
+            <form>
+              <div class="input-group mb-3">
+                  <input type="text" id="email" class="form-control" placeholder="E-mail
+                  " aria-label="E-mail" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                      <button onclick="feliratkozas()" class="btn btn-success" type="button" id="button-addon2">Feliratkozom</button>
+                  </div>
+              </div>
             </form>
           </div>
         </div>
